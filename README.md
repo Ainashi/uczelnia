@@ -1,7 +1,7 @@
 # Lista ToDo
 
 Uruchomienie:
-W folderze "bin" znajduje się plik exe do uruchomienia programu.
+W głównym folderze znajduje się plik exe uruchamiający program.
 
 Działanie programu:
 Lista ToDo służąca do kreowania listy zadań do wykonania. W programie jest możliwość wpisywania kolejnych zadań, które są następnie dodawane na listę poniżej.
