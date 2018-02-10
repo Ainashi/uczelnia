@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace TodoDB
+namespace ListaToDo
 {
     public class TodoList
     {
+        public int currentId { get; set; }
         public List<Todo> Items { get; set; }
 
         public TodoList()

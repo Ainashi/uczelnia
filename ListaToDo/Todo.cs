@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoDB
-{
+namespace ListaToDo{
     public class Todo
     {
-        public Guid Id { get; set; }
+        public Guid Guid { get; set; }
+        public int Id {get; set; }
         public string Name { get; set; }
         public bool Done { get; set; }
 
         public Todo()
         {
-           Id = Guid.NewGuid();
+           Guid = Guid.NewGuid();
         }
     }
 }
